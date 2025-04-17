@@ -23,11 +23,12 @@
 .navbar-toggler {
   border-color: #fff;
 }
-.container-fluid{
+.container-fluid {
   background-image: linear-gradient(to right top, #72f8ff, #00d3ff, #00a9ff, #0077ff, #122beb);
-
+}
 .navbar-brand {
   font-size: xx-large;
-  font-family: "Courier New";
+  font-family: "Nirmala UI";
+font-style: oblique;
 }
 
