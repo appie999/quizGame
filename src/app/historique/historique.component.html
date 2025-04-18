@@ -1,1 +1,42 @@
-<p>historique works!</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historique</title>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="card p-4 shadow rounded-4">
+    <h3 class="text-center mb-4">📊 Historique des Scores</h3>
+
+    <table class="table table-bordered table-hover text-center">
+      <thead class="table-dark">
+      <tr>
+        <th>#</th>
+        <th>Catégorie</th>
+        <th>Difficulté</th>
+        <th>Date</th>
+        <th>Score</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of historique">
+        <td>{{item.id}}</td>
+        <td>{{item.category}}</td>
+        <td>{{item.difficulty}}</td>
+        <td>{{item.data}}</td>
+        <td>{{item.result}}</td>
+      </tr>
+      <tr>
+        <td colspan="5">Aucun score enregistré pour l'instant.</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+</body>
+</html>

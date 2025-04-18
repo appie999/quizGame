@@ -1,0 +1,26 @@
+body{
+  background-color: #00a9ff ;
+}
+
+.accueil-card {
+  max-width: 500px;
+  margin: auto;
+}
+
+h2 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card {
+  background-color: #8bf1ff;
+}
+
+.form-select {
+  border-radius: 10px;
+}
+
+button.btn {
+  border-radius: 10px;
+  font-weight: 500;
+}

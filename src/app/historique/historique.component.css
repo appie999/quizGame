@@ -1,0 +1,19 @@
+body{
+  background-color: #00a9ff ;
+}
+
+.card {
+  background-color: #8bf1ff;
+  border: none;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: 600;
+  color: #333;
+}
+

@@ -1,0 +1,18 @@
+body{
+  background-color: #00a9ff ;
+}
+
+.quiz-card {
+  max-width: 700px;
+  margin: auto;
+}
+
+button.list-group-item {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+button.list-group-item:hover {
+  background-color: #e8f0fe;
+}

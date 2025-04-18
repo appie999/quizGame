@@ -1,1 +1,45 @@
-<p>accueil works!</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>accueil</title>
+</head>
+<body>
+
+<div class="container mt-5 accueil-card">
+  <div class="card shadow-lg p-4 rounded-4">
+    <h2 class="text-center mb-4">🎯 Quiz Challenge</h2>
+
+    <form (ngSubmit)="startQuiz()" )>
+      <div class="mb-3">
+        <label for="category" class="form-label">Catégorie</label>
+        <select [(ngModel)]="category" id="category" class="form-select" name="category">
+          <option *ngFor="let cate of categories" [value]="cate.id" value="" disabled selected>{{cate.name}}</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <label for="difficulty" class="form-label">Difficulté</label>
+        <select [(ngModel)]="difficulty"  id="difficulty" class="form-select" name="difficulty">
+          <option value="easy">Facile</option>
+          <option value="medium">Moyenne</option>
+          <option value="hard">Difficile</option>
+        </select>
+      </div>
+
+      <div class="text-center">
+        <button type="button" class="btn btn-primary btn-lg px-5">
+          🚀 Démarrer
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+

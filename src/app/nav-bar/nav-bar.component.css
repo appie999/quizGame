@@ -27,8 +27,14 @@
   background-image: linear-gradient(to right top, #72f8ff, #00d3ff, #00a9ff, #0077ff, #122beb);
 }
 .navbar-brand {
+  /*color: #000000;*/
   font-size: xx-large;
   font-family: "Nirmala UI";
-font-style: oblique;
+  font-style: oblique;
+}
+
+a {
+  color: #000000;
+  font-weight: bold;
 }
 

@@ -1,0 +1,21 @@
+body{
+  background-color: #00a9ff ;
+}
+
+.result-card {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fefefe;
+}
+
+.text-success {
+  color: #198754 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
